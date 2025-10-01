@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Arjuna Tiga Pilar - Modul Mengemudi</title>
+  <style>
+    /* RESET */
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #1b1b1b;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    /* HEADER */
+    .header {
+      background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600') center/cover fixed;
+      text-align: center;
+      padding: 100px 20px;
+      position: relative;
+    }
+    .header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
+    }
+    .header h1 {
+      position: relative;
+      font-size: 32px;
+      font-weight: bold;
+      z-index: 1;
+      color: #fff;
+      animation: fadeInDown 1s ease;
+    }
+
+    /* MODULE BOX */
+    .module-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      align-items: center;
+    }
+    .module-text {
+      flex: 1;
+      background: #2e4939;
+      padding: 20px;
+      border-radius: 15px;
+      animation: fadeInLeft 1s ease;
+    }
+    .module-text h2 {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+    .module-text p {
+      font-size: 14px;
+      color: #ddd;
+    }
+    .module-img {
+      flex: 1;
+      text-align: center;
+      animation: fadeInRight 1s ease;
+    }
+    .module-img img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    /* MENU BUTTONS */
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 800px;
+      margin: 0 auto 60px;
+      padding: 0 20px;
+    }
+    .menu a {
+      display: block;
+      background: #3f5f4b;
+      padding: 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      transition: 0.3s;
+      animation: fadeInUp 0.8s ease;
+    }
+    .menu a:hover {
+      background: #25d366;
+      color: #000;
+      box-shadow: 0 0 15px #25d366, 0 0 30px #25d366;
+      transform: scale(1.05);
+    }
+
+    /* WHATSAPP FLOATING */
+    .wa-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: #fff;
+      font-size: 28px;
+      padding: 16px;
+      border-radius: 50%;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+      text-decoration: none;
+      animation: pulse 1.5s infinite;
+      z-index: 1000;
+    }
+
+    /* ANIMATIONS */
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-40px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(40px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInLeft {
+      from {opacity: 0; transform: translateX(-40px);}
+      to {opacity: 1; transform: translateX(0);}
+    }
+    @keyframes fadeInRight {
+      from {opacity: 0; transform: translateX(40px);}
+      to {opacity: 1; transform: translateX(0);}
+    }
+    @keyframes pulse {
+      0% {transform: scale(1);}
+      50% {transform: scale(1.1);}
+      100% {transform: scale(1);}
+    }
+
+    /* RESPONSIVE */
+    @media(max-width: 768px){
+      .module-box {flex-direction: column;}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>CV ARJUNA TIGA PILAR</h1>
+  </div>
+
+  <!-- MODUL INTRO -->
+  <div class="module-box">
+    <div class="module-text">
+      <h2>MODUL PEMBELAJARAN MENGEMUDI</h2>
+      <p>Teknik Mengemudi Aman Bagi Pemula</p>
+    </div>
+    <div class="module-img">
+      <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800" alt="Mengemudi">
+    </div>
+  </div>
+
+  <!-- MENU LIST -->
+  <div class="menu">
+    <a href="https://drive.google.com/file/d/1CpbfRGfeBAe3IN9lRfmzhuinvJSH-ED7/view?usp=sharing">✔ Persiapan Berkendara</a>
+    <a href="https://drive.google.com/file/d/1mGUIVg2cEYaIrQipQFCfIsOpcJ196X-_/view?usp=sharing">✔ Mengendalikan Kendaraan</a>
+    <a href="https://drive.google.com/file/d/1e1S46bdJBLxlS91qVB9OK_IDdJ61CYgA/view?usp=sharing">✔ Memarkir dan Membelokkan Kendaraan</a>
+    <a href="https://drive.google.com/file/d/1YgbFMKSxwEkPQb6wthmNKA_xxnRF9ZVF/view?usp=sharing">✔ Mengatasi Situasi Kritis Saat Berkendara</a>
+    <a href="https://drive.google.com/file/d/14m_tefHvallnhoTytoZ6c4JF37rLCK_K/view?usp=sharing">✔ Pemahaman Peraturan Lalu Lintas</a>
+    <a href="https://drive.google.com/file/d/1CpbfRGfeBAe3IN9lRfmzhuinvJSH-ED7/view?usp=sharing">✔ Teknik Berkendara</a>
+    <a href="https://drive.google.com/file/d/1S9N-Azewx82jwZZprZRNVjnXfSRKJDvs/view?usp=sharing">✔ Prosedur Pembuatan SIM</a>
+  </div>
+
+  <!-- WHATSAPP -->
+  <a href="https://wa.me/6281329319539" class="wa-btn" target="_blank">💬</a>
+
+</body>
+</html>
